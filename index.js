@@ -1,5 +1,6 @@
 import * as modeling from "@jscad/modeling";
 import * as legoScad from "/Libraries/LEGO.scad/LEGO.scad?use";
+import exampleCatalog from "./examples/catalog.json";
 
 const toNumber = (value, fallback) => {
   const parsed = Number(value);
@@ -22,16 +23,27 @@ const resolveHeight = (preset) => {
 };
 
 const createBlock = ({
-  width,
-  length,
-  height,
-  type,
-  brand,
-  studType,
+  width = 1,
+  length = 2,
+  height = 1,
+  type = "brick",
+  brand = "lego",
+  studType = "solid",
   technicHoles = false,
   technicHoleShape = "cross",
+  verticalAxleHoles = false,
+  verticalAxleHoleShape = "cross",
   curveType = "convex",
+  curveStudRows = Math.max(1, length - 1),
   wingType = "left",
+  wingEndWidth = Math.max(1, width - 2),
+  wingBaseLength = 1,
+  slopeStudRows = 1,
+  slopeStuds = false,
+  roundRadius = 0,
+  studNotches = type === "wing" || type === "round",
+  studMatrixString = "",
+  studMatrixColumns = 0,
   quality = "draft",
 }) => legoScad.block(
   width,
@@ -46,16 +58,17 @@ const createBlock = ({
   false,
   technicHoles,
   technicHoleShape,
-  false,
-  "cross",
+  verticalAxleHoles,
+  verticalAxleHoleShape,
   brand === "duplo",
   wingType,
-  Math.max(1, width - 2),
-  1,
-  type === "wing" || type === "round",
-  1,
+  wingEndWidth,
+  wingBaseLength,
+  studNotches,
+  slopeStudRows,
   0,
-  Math.max(1, length - 1),
+  slopeStuds,
+  curveStudRows,
   curveType,
   0,
   0,
@@ -63,14 +76,14 @@ const createBlock = ({
   0,
   0,
   false,
-  0,
+  roundRadius,
   1,
   0.2,
   false,
   false,
   true,
-  "",
-  0,
+  studMatrixString,
+  studMatrixColumns,
   false,
   false,
   1,
@@ -103,25 +116,53 @@ const colorBlock = (hex, geometry) => {
 const placeBlock = (offset, hex, options) =>
   modeling.transforms.translate(offset, colorBlock(hex, createBlock(options)));
 
-const createSampler = (common) => [
-  placeBlock([-44, 18, 0], "#d71920", { ...common, width: 2, length: 4, height: 1, type: "brick" }),
-  placeBlock([-12, 18, 0], "#f5cd2f", { ...common, width: 2, length: 4, height: 1 / 3, type: "brick" }),
-  placeBlock([20, 18, 0], "#f4f4f4", { ...common, width: 2, length: 2, height: 1 / 3, type: "tile" }),
-  placeBlock([-44, -18, 0], "#0055bf", { ...common, width: 2, length: 4, height: 1, type: "slope" }),
-  placeBlock([-4, -18, 0], "#237841", { ...common, width: 1, length: 6, height: 2, type: "curve" }),
-  placeBlock([38, -18, 0], "#ff8a18", { ...common, width: 3, length: 3, height: 1 / 3, type: "wing" }),
+const createShowcase = (common) => [
+  placeBlock([-50, 30, 0], "#f5cd2f", { ...common, width: 1, length: 8, height: 1 / 3, type: "brick" }),
+  placeBlock([-28, 28, 0], "#237841", { ...common, width: 4, length: 4, height: 1, type: "brick", studType: "hollow" }),
+  placeBlock([8, 32, 0], "#9ba19d", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
+  placeBlock([54, 28, 0], "#008f8c", { ...common, width: 6, length: 8, height: 1 / 3, type: "baseplate" }),
+  placeBlock([-20, 2, 0], "#d71920", { ...common, width: 2, length: 8, height: 1, type: "brick" }),
+  placeBlock([18, 0, 0], "#f4f4f4", { ...common, width: 4, length: 6, height: 1 / 3, type: "brick" }),
+  placeBlock([56, 0, 0], "#0055bf", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
+  placeBlock([-54, -28, 0], "#81007b", { ...common, width: 2, length: 4, height: 1, type: "brick", studType: "open" }),
 ];
 
+const createExample = (path, quality) => {
+  const parameters = exampleCatalog[path] || exampleCatalog["/examples/3001.scad"];
+  return createBlock({
+    quality,
+    ...parameters,
+    studType: parameters.stud_type,
+    technicHoles: parameters.horizontal_axle_holes,
+    technicHoleShape: parameters.horizontal_axle_hole_shape,
+    verticalAxleHoles: parameters.vertical_axle_holes,
+    verticalAxleHoleShape: parameters.vertical_axle_hole_shape,
+    curveType: parameters.curve_type,
+    curveStudRows: parameters.curve_stud_rows,
+    wingType: parameters.wing_type,
+    wingEndWidth: parameters.wing_end_width,
+    wingBaseLength: parameters.wing_base_length,
+    slopeStudRows: parameters.slope_stud_rows,
+    slopeStuds: parameters.slope_studs,
+    roundRadius: parameters.round_radius,
+    studNotches: parameters.stud_notches,
+    studMatrixString: parameters.stud_matrix_string,
+    studMatrixColumns: parameters.stud_matrix_columns,
+  });
+};
+
 export function main({ variables = {} } = {}) {
-  const viewMode = variables.view_mode || "single";
+  const viewMode = variables.view_mode || "showcase";
   const brand = variables.brand || "lego";
   const studType = variables.stud_type || "solid";
   const quality = variables.quality || "draft";
   const common = { brand, studType, quality };
 
   let geometry;
-  if (viewMode === "sampler") {
-    geometry = createSampler(common);
+  if (viewMode === "showcase") {
+    geometry = createShowcase({ brand: "lego", studType: "solid", quality });
+  } else if (viewMode === "example") {
+    geometry = createExample(variables.example_part, quality);
   } else {
     const type = variables.part_type || "brick";
     geometry = colorBlock(

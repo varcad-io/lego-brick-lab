@@ -8,12 +8,752 @@
     "type": "Dropdown",
     "name": "view_mode",
     "label": "View",
-    "description": "Inspect one configurable part or a six-part library sampler",
+    "description": "Browse the showcase, an upstream part-number example, or a custom part",
     "options": [
-      { "value": "single", "label": "Single part" },
-      { "value": "sampler", "label": "Part sampler" }
+      {
+        "value": "showcase",
+        "label": "Block showcase"
+      },
+      {
+        "value": "example",
+        "label": "Example part"
+      },
+      {
+        "value": "custom",
+        "label": "Custom part"
+      }
     ],
-    "defaultValue": "single"
+    "defaultValue": "showcase"
+  },
+  {
+    "type": "Dropdown",
+    "name": "example_part",
+    "label": "Example",
+    "description": "Render an upstream LEGO.scad part-number example",
+    "options": [
+      {
+        "value": "/examples/1126.scad",
+        "label": "1126"
+      },
+      {
+        "value": "/examples/1751.scad",
+        "label": "1751"
+      },
+      {
+        "value": "/examples/2291.scad",
+        "label": "2291"
+      },
+      {
+        "value": "/examples/2300.scad",
+        "label": "2300"
+      },
+      {
+        "value": "/examples/2301.scad",
+        "label": "2301"
+      },
+      {
+        "value": "/examples/2302.scad",
+        "label": "2302"
+      },
+      {
+        "value": "/examples/2419.scad",
+        "label": "2419"
+      },
+      {
+        "value": "/examples/2431.scad",
+        "label": "2431"
+      },
+      {
+        "value": "/examples/2445.scad",
+        "label": "2445"
+      },
+      {
+        "value": "/examples/2450.scad",
+        "label": "2450"
+      },
+      {
+        "value": "/examples/2453.scad",
+        "label": "2453"
+      },
+      {
+        "value": "/examples/2454.scad",
+        "label": "2454"
+      },
+      {
+        "value": "/examples/2456.scad",
+        "label": "2456"
+      },
+      {
+        "value": "/examples/2465.scad",
+        "label": "2465"
+      },
+      {
+        "value": "/examples/3001.scad",
+        "label": "3001"
+      },
+      {
+        "value": "/examples/3002.scad",
+        "label": "3002"
+      },
+      {
+        "value": "/examples/3003.scad",
+        "label": "3003"
+      },
+      {
+        "value": "/examples/3004.scad",
+        "label": "3004"
+      },
+      {
+        "value": "/examples/3005.scad",
+        "label": "3005"
+      },
+      {
+        "value": "/examples/3006.scad",
+        "label": "3006"
+      },
+      {
+        "value": "/examples/3007.scad",
+        "label": "3007"
+      },
+      {
+        "value": "/examples/3008.scad",
+        "label": "3008"
+      },
+      {
+        "value": "/examples/3009.scad",
+        "label": "3009"
+      },
+      {
+        "value": "/examples/3010.scad",
+        "label": "3010"
+      },
+      {
+        "value": "/examples/3011.scad",
+        "label": "3011"
+      },
+      {
+        "value": "/examples/3020.scad",
+        "label": "3020"
+      },
+      {
+        "value": "/examples/3021.scad",
+        "label": "3021"
+      },
+      {
+        "value": "/examples/3022.scad",
+        "label": "3022"
+      },
+      {
+        "value": "/examples/3023.scad",
+        "label": "3023"
+      },
+      {
+        "value": "/examples/3024.scad",
+        "label": "3024"
+      },
+      {
+        "value": "/examples/3027.scad",
+        "label": "3027"
+      },
+      {
+        "value": "/examples/3028.scad",
+        "label": "3028"
+      },
+      {
+        "value": "/examples/3029.scad",
+        "label": "3029"
+      },
+      {
+        "value": "/examples/3030.scad",
+        "label": "3030"
+      },
+      {
+        "value": "/examples/3031.scad",
+        "label": "3031"
+      },
+      {
+        "value": "/examples/3032.scad",
+        "label": "3032"
+      },
+      {
+        "value": "/examples/3033.scad",
+        "label": "3033"
+      },
+      {
+        "value": "/examples/3034.scad",
+        "label": "3034"
+      },
+      {
+        "value": "/examples/3035.scad",
+        "label": "3035"
+      },
+      {
+        "value": "/examples/3036.scad",
+        "label": "3036"
+      },
+      {
+        "value": "/examples/3037.scad",
+        "label": "3037"
+      },
+      {
+        "value": "/examples/3038.scad",
+        "label": "3038"
+      },
+      {
+        "value": "/examples/3039.scad",
+        "label": "3039"
+      },
+      {
+        "value": "/examples/3040.scad",
+        "label": "3040"
+      },
+      {
+        "value": "/examples/3062.scad",
+        "label": "3062"
+      },
+      {
+        "value": "/examples/3068.scad",
+        "label": "3068"
+      },
+      {
+        "value": "/examples/3069.scad",
+        "label": "3069"
+      },
+      {
+        "value": "/examples/3070.scad",
+        "label": "3070"
+      },
+      {
+        "value": "/examples/3254.scad",
+        "label": "3254"
+      },
+      {
+        "value": "/examples/3297.scad",
+        "label": "3297"
+      },
+      {
+        "value": "/examples/3298.scad",
+        "label": "3298"
+      },
+      {
+        "value": "/examples/3437.scad",
+        "label": "3437"
+      },
+      {
+        "value": "/examples/3456.scad",
+        "label": "3456"
+      },
+      {
+        "value": "/examples/3460.scad",
+        "label": "3460"
+      },
+      {
+        "value": "/examples/3544.scad",
+        "label": "3544"
+      },
+      {
+        "value": "/examples/3545.scad",
+        "label": "3545"
+      },
+      {
+        "value": "/examples/3622.scad",
+        "label": "3622"
+      },
+      {
+        "value": "/examples/3623.scad",
+        "label": "3623"
+      },
+      {
+        "value": "/examples/3666.scad",
+        "label": "3666"
+      },
+      {
+        "value": "/examples/3678.scad",
+        "label": "3678"
+      },
+      {
+        "value": "/examples/3702.scad",
+        "label": "3702"
+      },
+      {
+        "value": "/examples/3709.scad",
+        "label": "3709"
+      },
+      {
+        "value": "/examples/3710.scad",
+        "label": "3710"
+      },
+      {
+        "value": "/examples/3766.scad",
+        "label": "3766"
+      },
+      {
+        "value": "/examples/3795.scad",
+        "label": "3795"
+      },
+      {
+        "value": "/examples/3811.scad",
+        "label": "3811"
+      },
+      {
+        "value": "/examples/3832.scad",
+        "label": "3832"
+      },
+      {
+        "value": "/examples/3857.scad",
+        "label": "3857"
+      },
+      {
+        "value": "/examples/3958.scad",
+        "label": "3958"
+      },
+      {
+        "value": "/examples/4032.scad",
+        "label": "4032"
+      },
+      {
+        "value": "/examples/4161.scad",
+        "label": "4161"
+      },
+      {
+        "value": "/examples/4162.scad",
+        "label": "4162"
+      },
+      {
+        "value": "/examples/4186.scad",
+        "label": "4186"
+      },
+      {
+        "value": "/examples/4196.scad",
+        "label": "4196"
+      },
+      {
+        "value": "/examples/4199.scad",
+        "label": "4199"
+      },
+      {
+        "value": "/examples/4268.scad",
+        "label": "4268"
+      },
+      {
+        "value": "/examples/4282.scad",
+        "label": "4282"
+      },
+      {
+        "value": "/examples/4286.scad",
+        "label": "4286"
+      },
+      {
+        "value": "/examples/4445.scad",
+        "label": "4445"
+      },
+      {
+        "value": "/examples/4460.scad",
+        "label": "4460"
+      },
+      {
+        "value": "/examples/4477.scad",
+        "label": "4477"
+      },
+      {
+        "value": "/examples/4672.scad",
+        "label": "4672"
+      },
+      {
+        "value": "/examples/6106.scad",
+        "label": "6106"
+      },
+      {
+        "value": "/examples/6111.scad",
+        "label": "6111"
+      },
+      {
+        "value": "/examples/6112.scad",
+        "label": "6112"
+      },
+      {
+        "value": "/examples/6141.scad",
+        "label": "6141"
+      },
+      {
+        "value": "/examples/6178.scad",
+        "label": "6178"
+      },
+      {
+        "value": "/examples/6179.scad",
+        "label": "6179"
+      },
+      {
+        "value": "/examples/6180.scad",
+        "label": "6180"
+      },
+      {
+        "value": "/examples/6205.scad",
+        "label": "6205"
+      },
+      {
+        "value": "/examples/6474.scad",
+        "label": "6474"
+      },
+      {
+        "value": "/examples/6490.scad",
+        "label": "6490"
+      },
+      {
+        "value": "/examples/6636.scad",
+        "label": "6636"
+      },
+      {
+        "value": "/examples/10202.scad",
+        "label": "10202"
+      },
+      {
+        "value": "/examples/11169.scad",
+        "label": "11169"
+      },
+      {
+        "value": "/examples/11170.scad",
+        "label": "11170"
+      },
+      {
+        "value": "/examples/11212.scad",
+        "label": "11212"
+      },
+      {
+        "value": "/examples/11344.scad",
+        "label": "11344"
+      },
+      {
+        "value": "/examples/14181.scad",
+        "label": "14181"
+      },
+      {
+        "value": "/examples/14716.scad",
+        "label": "14716"
+      },
+      {
+        "value": "/examples/14721.scad",
+        "label": "14721"
+      },
+      {
+        "value": "/examples/14769.scad",
+        "label": "14769"
+      },
+      {
+        "value": "/examples/22886.scad",
+        "label": "22886"
+      },
+      {
+        "value": "/examples/23949.scad",
+        "label": "23949"
+      },
+      {
+        "value": "/examples/24299.scad",
+        "label": "24299"
+      },
+      {
+        "value": "/examples/24307.scad",
+        "label": "24307"
+      },
+      {
+        "value": "/examples/25549.scad",
+        "label": "25549"
+      },
+      {
+        "value": "/examples/26603.scad",
+        "label": "26603"
+      },
+      {
+        "value": "/examples/30145.scad",
+        "label": "30145"
+      },
+      {
+        "value": "/examples/30249.scad",
+        "label": "30249"
+      },
+      {
+        "value": "/examples/30355.scad",
+        "label": "30355"
+      },
+      {
+        "value": "/examples/30356.scad",
+        "label": "30356"
+      },
+      {
+        "value": "/examples/30363.scad",
+        "label": "30363"
+      },
+      {
+        "value": "/examples/30503.scad",
+        "label": "30503"
+      },
+      {
+        "value": "/examples/30504.scad",
+        "label": "30504"
+      },
+      {
+        "value": "/examples/31110.scad",
+        "label": "31110"
+      },
+      {
+        "value": "/examples/32064.scad",
+        "label": "32064"
+      },
+      {
+        "value": "/examples/33243.scad",
+        "label": "33243"
+      },
+      {
+        "value": "/examples/33909.scad",
+        "label": "33909"
+      },
+      {
+        "value": "/examples/35114.scad",
+        "label": "35114"
+      },
+      {
+        "value": "/examples/35480.scad",
+        "label": "35480"
+      },
+      {
+        "value": "/examples/40666.scad",
+        "label": "40666"
+      },
+      {
+        "value": "/examples/41539.scad",
+        "label": "41539"
+      },
+      {
+        "value": "/examples/41740.scad",
+        "label": "41740"
+      },
+      {
+        "value": "/examples/41769.scad",
+        "label": "41769"
+      },
+      {
+        "value": "/examples/41770.scad",
+        "label": "41770"
+      },
+      {
+        "value": "/examples/42022.scad",
+        "label": "42022"
+      },
+      {
+        "value": "/examples/43722.scad",
+        "label": "43722"
+      },
+      {
+        "value": "/examples/43723.scad",
+        "label": "43723"
+      },
+      {
+        "value": "/examples/44126.scad",
+        "label": "44126"
+      },
+      {
+        "value": "/examples/44524.scad",
+        "label": "44524"
+      },
+      {
+        "value": "/examples/47397.scad",
+        "label": "47397"
+      },
+      {
+        "value": "/examples/47398.scad",
+        "label": "47398"
+      },
+      {
+        "value": "/examples/48205.scad",
+        "label": "48205"
+      },
+      {
+        "value": "/examples/48208.scad",
+        "label": "48208"
+      },
+      {
+        "value": "/examples/49311.scad",
+        "label": "49311"
+      },
+      {
+        "value": "/examples/49570.scad",
+        "label": "49570"
+      },
+      {
+        "value": "/examples/49618.scad",
+        "label": "49618"
+      },
+      {
+        "value": "/examples/50303.scad",
+        "label": "50303"
+      },
+      {
+        "value": "/examples/50304.scad",
+        "label": "50304"
+      },
+      {
+        "value": "/examples/50305.scad",
+        "label": "50305"
+      },
+      {
+        "value": "/examples/51262.scad",
+        "label": "51262"
+      },
+      {
+        "value": "/examples/51739.scad",
+        "label": "51739"
+      },
+      {
+        "value": "/examples/54200.scad",
+        "label": "54200"
+      },
+      {
+        "value": "/examples/54383.scad",
+        "label": "54383"
+      },
+      {
+        "value": "/examples/54384.scad",
+        "label": "54384"
+      },
+      {
+        "value": "/examples/60477.scad",
+        "label": "60477"
+      },
+      {
+        "value": "/examples/60479.scad",
+        "label": "60479"
+      },
+      {
+        "value": "/examples/60481.scad",
+        "label": "60481"
+      },
+      {
+        "value": "/examples/63864.scad",
+        "label": "63864"
+      },
+      {
+        "value": "/examples/63871.scad",
+        "label": "63871"
+      },
+      {
+        "value": "/examples/65140.scad",
+        "label": "65140"
+      },
+      {
+        "value": "/examples/65474.scad",
+        "label": "65474"
+      },
+      {
+        "value": "/examples/65734.scad",
+        "label": "65734"
+      },
+      {
+        "value": "/examples/66857.scad",
+        "label": "66857"
+      },
+      {
+        "value": "/examples/67095.scad",
+        "label": "67095"
+      },
+      {
+        "value": "/examples/68869.scad",
+        "label": "68869"
+      },
+      {
+        "value": "/examples/69729.scad",
+        "label": "69729"
+      },
+      {
+        "value": "/examples/70676.scad",
+        "label": "70676"
+      },
+      {
+        "value": "/examples/76371.scad",
+        "label": "76371"
+      },
+      {
+        "value": "/examples/77850.scad",
+        "label": "77850"
+      },
+      {
+        "value": "/examples/78329.scad",
+        "label": "78329"
+      },
+      {
+        "value": "/examples/78443.scad",
+        "label": "78443"
+      },
+      {
+        "value": "/examples/78444.scad",
+        "label": "78444"
+      },
+      {
+        "value": "/examples/85861.scad",
+        "label": "85861"
+      },
+      {
+        "value": "/examples/85984.scad",
+        "label": "85984"
+      },
+      {
+        "value": "/examples/86996.scad",
+        "label": "86996"
+      },
+      {
+        "value": "/examples/87074.scad",
+        "label": "87074"
+      },
+      {
+        "value": "/examples/87079.scad",
+        "label": "87079"
+      },
+      {
+        "value": "/examples/88646.scad",
+        "label": "88646"
+      },
+      {
+        "value": "/examples/90498.scad",
+        "label": "90498"
+      },
+      {
+        "value": "/examples/91405.scad",
+        "label": "91405"
+      },
+      {
+        "value": "/examples/91988.scad",
+        "label": "91988"
+      },
+      {
+        "value": "/examples/92438.scad",
+        "label": "92438"
+      },
+      {
+        "value": "/examples/98138.scad",
+        "label": "98138"
+      },
+      {
+        "value": "/examples/98222.scad",
+        "label": "98222"
+      },
+      {
+        "value": "/examples/98225.scad",
+        "label": "98225"
+      },
+      {
+        "value": "/examples/98233.scad",
+        "label": "98233"
+      },
+      {
+        "value": "/examples/98560.scad",
+        "label": "98560"
+      }
+    ],
+    "defaultValue": "/examples/3001.scad",
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "example"
+    }
   },
   {
     "type": "Dropdown",
@@ -21,17 +761,45 @@
     "label": "Part",
     "description": "LEGO.scad block family",
     "options": [
-      { "value": "brick", "label": "Brick" },
-      { "value": "tile", "label": "Tile" },
-      { "value": "slope", "label": "Slope" },
-      { "value": "curve", "label": "Curve" },
-      { "value": "wing", "label": "Wing" },
-      { "value": "round", "label": "Round" },
-      { "value": "round-tile", "label": "Round tile" },
-      { "value": "baseplate", "label": "Baseplate" }
+      {
+        "value": "brick",
+        "label": "Brick"
+      },
+      {
+        "value": "tile",
+        "label": "Tile"
+      },
+      {
+        "value": "slope",
+        "label": "Slope"
+      },
+      {
+        "value": "curve",
+        "label": "Curve"
+      },
+      {
+        "value": "wing",
+        "label": "Wing"
+      },
+      {
+        "value": "round",
+        "label": "Round"
+      },
+      {
+        "value": "round-tile",
+        "label": "Round tile"
+      },
+      {
+        "value": "baseplate",
+        "label": "Baseplate"
+      }
     ],
     "defaultValue": "brick",
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Slider",
@@ -40,7 +808,11 @@
     "description": "Part width in studs",
     "range": "1,12,1",
     "defaultValue": "2",
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Slider",
@@ -49,7 +821,11 @@
     "description": "Part length in studs",
     "range": "1,16,1",
     "defaultValue": "4",
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Dropdown",
@@ -57,12 +833,25 @@
     "label": "Height",
     "description": "Plate, standard brick, or double brick height",
     "options": [
-      { "value": "plate", "label": "Plate (1/3)" },
-      { "value": "brick", "label": "Brick (1x)" },
-      { "value": "double", "label": "Double (2x)" }
+      {
+        "value": "plate",
+        "label": "Plate (1/3)"
+      },
+      {
+        "value": "brick",
+        "label": "Brick (1x)"
+      },
+      {
+        "value": "double",
+        "label": "Double (2x)"
+      }
     ],
     "defaultValue": "brick",
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Section",
@@ -75,10 +864,21 @@
     "label": "System",
     "description": "Standard or DUPLO-compatible dimensions",
     "options": [
-      { "value": "lego", "label": "LEGO-compatible" },
-      { "value": "duplo", "label": "DUPLO-compatible" }
+      {
+        "value": "lego",
+        "label": "LEGO-compatible"
+      },
+      {
+        "value": "duplo",
+        "label": "DUPLO-compatible"
+      }
     ],
-    "defaultValue": "lego"
+    "defaultValue": "lego",
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Dropdown",
@@ -86,11 +886,25 @@
     "label": "Studs",
     "description": "Top stud construction",
     "options": [
-      { "value": "solid", "label": "Solid" },
-      { "value": "hollow", "label": "Hollow" },
-      { "value": "open", "label": "Open" }
+      {
+        "value": "solid",
+        "label": "Solid"
+      },
+      {
+        "value": "hollow",
+        "label": "Hollow"
+      },
+      {
+        "value": "open",
+        "label": "Open"
+      }
     ],
-    "defaultValue": "solid"
+    "defaultValue": "solid",
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Checkbox",
@@ -98,7 +912,11 @@
     "label": "Technic holes",
     "description": "Add horizontal axle holes",
     "defaultValue": false,
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Dropdown",
@@ -106,34 +924,66 @@
     "label": "Hole shape",
     "description": "Round or cross-shaped horizontal holes",
     "options": [
-      { "value": "cross", "label": "Cross" },
-      { "value": "round", "label": "Round" }
+      {
+        "value": "cross",
+        "label": "Cross"
+      },
+      {
+        "value": "round",
+        "label": "Round"
+      }
     ],
     "defaultValue": "cross",
-    "visibleWhen": { "field": "technic_holes", "operator": "truthy" }
+    "visibleWhen": {
+      "field": "technic_holes",
+      "operator": "truthy"
+    }
   },
   {
     "type": "Dropdown",
     "name": "curve_type",
     "label": "Curve",
     "options": [
-      { "value": "convex", "label": "Convex" },
-      { "value": "concave", "label": "Concave" }
+      {
+        "value": "convex",
+        "label": "Convex"
+      },
+      {
+        "value": "concave",
+        "label": "Concave"
+      }
     ],
     "defaultValue": "convex",
-    "visibleWhen": { "field": "part_type", "operator": "equals", "value": "curve" }
+    "visibleWhen": {
+      "field": "part_type",
+      "operator": "equals",
+      "value": "curve"
+    }
   },
   {
     "type": "Dropdown",
     "name": "wing_type",
     "label": "Wing side",
     "options": [
-      { "value": "left", "label": "Left" },
-      { "value": "right", "label": "Right" },
-      { "value": "full", "label": "Full" }
+      {
+        "value": "left",
+        "label": "Left"
+      },
+      {
+        "value": "right",
+        "label": "Right"
+      },
+      {
+        "value": "full",
+        "label": "Full"
+      }
     ],
     "defaultValue": "left",
-    "visibleWhen": { "field": "part_type", "operator": "equals", "value": "wing" }
+    "visibleWhen": {
+      "field": "part_type",
+      "operator": "equals",
+      "value": "wing"
+    }
   },
   {
     "type": "Section",
@@ -146,7 +996,11 @@
     "label": "Color",
     "description": "Display color for the selected part",
     "defaultValue": "#d71920",
-    "visibleWhen": { "field": "view_mode", "operator": "equals", "value": "single" }
+    "visibleWhen": {
+      "field": "view_mode",
+      "operator": "equals",
+      "value": "custom"
+    }
   },
   {
     "type": "Checkbox",
@@ -161,8 +1015,14 @@
     "label": "Geometry quality",
     "description": "Draft is faster; print uses finer curved surfaces",
     "options": [
-      { "value": "draft", "label": "Draft" },
-      { "value": "print", "label": "Print" }
+      {
+        "value": "draft",
+        "label": "Draft"
+      },
+      {
+        "value": "print",
+        "label": "Print"
+      }
     ],
     "defaultValue": "draft"
   }

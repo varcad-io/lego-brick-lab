@@ -1,0 +1,1169 @@
+{
+  "/examples/1126.scad": {
+    "width": 1,
+    "length": 2,
+    "type": "round-tile",
+    "height": 0.3333333333333333
+  },
+  "/examples/1751.scad": {
+    "width": 4,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/2291.scad": {
+    "width": 2,
+    "length": 10,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/2300.scad": {
+    "width": 2,
+    "length": 6,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/2301.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 2,
+    "brand": "duplo",
+    "type": "curve",
+    "stud_type": "hollow",
+    "curve_type": "concave"
+  },
+  "/examples/2302.scad": {
+    "width": 2,
+    "length": 3,
+    "brand": "duplo",
+    "type": "curve",
+    "curve_type": "concave",
+    "stud_type": "hollow",
+    "curve_stud_rows": 2
+  },
+  "/examples/2419.scad": {
+    "width": 6,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "full",
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/2431.scad": {
+    "width": 1,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/2445.scad": {
+    "width": 2,
+    "length": 12,
+    "height": 0.3333333333333333
+  },
+  "/examples/2450.scad": {
+    "width": 3,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/2453.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 5,
+    "stud_type": "hollow"
+  },
+  "/examples/2454.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 5,
+    "stud_type": "hollow"
+  },
+  "/examples/2456.scad": {
+    "width": 2,
+    "length": 6
+  },
+  "/examples/2465.scad": {
+    "width": 1,
+    "length": 16
+  },
+  "/examples/3001.scad": {
+    "width": 2,
+    "length": 4
+  },
+  "/examples/3002.scad": {
+    "width": 2,
+    "length": 3
+  },
+  "/examples/3003.scad": {
+    "width": 2,
+    "length": 2
+  },
+  "/examples/3004.scad": {
+    "width": 1,
+    "length": 2
+  },
+  "/examples/3005.scad": {
+    "width": 1,
+    "length": 1
+  },
+  "/examples/3006.scad": {
+    "width": 2,
+    "length": 10
+  },
+  "/examples/3007.scad": {
+    "width": 2,
+    "length": 8
+  },
+  "/examples/3008.scad": {
+    "width": 1,
+    "length": 8
+  },
+  "/examples/3009.scad": {
+    "width": 1,
+    "length": 6
+  },
+  "/examples/3010.scad": {
+    "width": 1,
+    "length": 4
+  },
+  "/examples/3011.scad": {
+    "width": 2,
+    "length": 4,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/3020.scad": {
+    "width": 2,
+    "length": 4,
+    "height": 0.3333333333333333
+  },
+  "/examples/3021.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 0.3333333333333333
+  },
+  "/examples/3022.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 0.3333333333333333
+  },
+  "/examples/3023.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 0.3333333333333333
+  },
+  "/examples/3024.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 0.3333333333333333
+  },
+  "/examples/3027.scad": {
+    "width": 6,
+    "length": 16,
+    "height": 0.3333333333333333
+  },
+  "/examples/3028.scad": {
+    "width": 6,
+    "length": 12,
+    "height": 0.3333333333333333
+  },
+  "/examples/3029.scad": {
+    "width": 4,
+    "length": 12,
+    "height": 0.3333333333333333
+  },
+  "/examples/3030.scad": {
+    "width": 4,
+    "length": 10,
+    "height": 0.3333333333333333
+  },
+  "/examples/3031.scad": {
+    "width": 4,
+    "length": 4,
+    "height": 0.3333333333333333
+  },
+  "/examples/3032.scad": {
+    "width": 4,
+    "length": 6,
+    "height": 0.3333333333333333
+  },
+  "/examples/3033.scad": {
+    "width": 6,
+    "length": 10,
+    "height": 0.3333333333333333
+  },
+  "/examples/3034.scad": {
+    "width": 2,
+    "length": 8,
+    "height": 0.3333333333333333
+  },
+  "/examples/3035.scad": {
+    "width": 4,
+    "length": 8,
+    "height": 0.3333333333333333
+  },
+  "/examples/3036.scad": {
+    "width": 6,
+    "length": 8,
+    "height": 0.3333333333333333
+  },
+  "/examples/3037.scad": {
+    "width": 4,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/3038.scad": {
+    "width": 3,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/3039.scad": {
+    "width": 2,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/3040.scad": {
+    "width": 1,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/3062.scad": {
+    "width": 1,
+    "length": 1,
+    "type": "round",
+    "stud_type": "hollow"
+  },
+  "/examples/3068.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/3069.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/3070.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/3254.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 2
+  },
+  "/examples/3297.scad": {
+    "width": 4,
+    "length": 3,
+    "type": "slope"
+  },
+  "/examples/3298.scad": {
+    "width": 2,
+    "length": 3,
+    "type": "slope"
+  },
+  "/examples/3437.scad": {
+    "width": 2,
+    "length": 2,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/3456.scad": {
+    "width": 6,
+    "length": 14,
+    "height": 0.3333333333333333
+  },
+  "/examples/3460.scad": {
+    "width": 1,
+    "length": 8,
+    "height": 0.3333333333333333
+  },
+  "/examples/3544.scad": {
+    "width": 3,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "stud_notches": true,
+    "wing_base_length": 1,
+    "wing_end_width": 1
+  },
+  "/examples/3545.scad": {
+    "width": 3,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "stud_notches": true,
+    "wing_base_length": 1,
+    "wing_end_width": 1
+  },
+  "/examples/3622.scad": {
+    "width": 1,
+    "length": 3
+  },
+  "/examples/3623.scad": {
+    "width": 1,
+    "length": 3,
+    "height": 0.3333333333333333
+  },
+  "/examples/3666.scad": {
+    "width": 1,
+    "length": 6,
+    "height": 0.3333333333333333
+  },
+  "/examples/3678.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 2,
+    "type": "slope"
+  },
+  "/examples/3702.scad": {
+    "width": 1,
+    "length": 8,
+    "horizontal_axle_holes": true,
+    "horizontal_axle_hole_shape": "round"
+  },
+  "/examples/3709.scad": {
+    "width": 4,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "vertical_axle_holes": true,
+    "vertical_axle_hole_shape": "round",
+    "type": "bricks"
+  },
+  "/examples/3710.scad": {
+    "width": 1,
+    "length": 4,
+    "height": 0.3333333333333333
+  },
+  "/examples/3766.scad": {
+    "width": 4,
+    "length": 6,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "stud_notches": true
+  },
+  "/examples/3795.scad": {
+    "width": 2,
+    "length": 6,
+    "height": 0.3333333333333333
+  },
+  "/examples/3811.scad": {
+    "width": 32,
+    "length": 32,
+    "type": "baseplate"
+  },
+  "/examples/3832.scad": {
+    "width": 2,
+    "length": 10,
+    "height": 0.3333333333333333
+  },
+  "/examples/3857.scad": {
+    "width": 16,
+    "length": 32,
+    "type": "baseplate"
+  },
+  "/examples/3958.scad": {
+    "width": 6,
+    "length": 6,
+    "height": 0.3333333333333333
+  },
+  "/examples/4032.scad": {
+    "width": 2,
+    "length": 2,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "vertical_axle_holes": true,
+    "vertical_axle_hole_shape": "cross",
+    "stud_notches": true
+  },
+  "/examples/4161.scad": {
+    "width": 3,
+    "length": 3,
+    "type": "slope"
+  },
+  "/examples/4162.scad": {
+    "width": 1,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/4186.scad": {
+    "width": 48,
+    "length": 48,
+    "type": "baseplate"
+  },
+  "/examples/4196.scad": {
+    "width": 6,
+    "length": 12,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/4199.scad": {
+    "width": 2,
+    "length": 8,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/4268.scad": {
+    "width": 24,
+    "length": 24,
+    "brand": "duplo",
+    "height": 0.3333333333333333
+  },
+  "/examples/4282.scad": {
+    "width": 2,
+    "length": 16,
+    "height": 0.3333333333333333
+  },
+  "/examples/4286.scad": {
+    "width": 1,
+    "length": 3,
+    "type": "slope"
+  },
+  "/examples/4445.scad": {
+    "width": 8,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/4460.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 3,
+    "type": "slope",
+    "stud_type": "hollow"
+  },
+  "/examples/4477.scad": {
+    "width": 1,
+    "length": 10,
+    "height": 0.3333333333333333
+  },
+  "/examples/4672.scad": {
+    "width": 4,
+    "length": 8,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/6106.scad": {
+    "width": 6,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_end_width": 2,
+    "wing_base_length": 3,
+    "stud_notches": true
+  },
+  "/examples/6111.scad": {
+    "width": 1,
+    "length": 10
+  },
+  "/examples/6112.scad": {
+    "width": 1,
+    "length": 12
+  },
+  "/examples/6141.scad": {
+    "width": 1,
+    "length": 1,
+    "type": "round",
+    "height": 0.3333333333333333
+  },
+  "/examples/6178.scad": {
+    "width": 6,
+    "length": 12,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "************\n*__________*\n*__________*\n*__________*\n*__________*\n*__________*\n",
+    "stud_matrix_columns": 12
+  },
+  "/examples/6179.scad": {
+    "width": 4,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "****\n____\n____\n____",
+    "stud_matrix_columns": 4
+  },
+  "/examples/6180.scad": {
+    "width": 4,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "******\n*____*\n*____*\n*____*",
+    "stud_matrix_columns": 6
+  },
+  "/examples/6205.scad": {
+    "width": 6,
+    "length": 16,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "****************\n*______________*\n*______________*\n*______________*\n*______________*\n*______________*\n",
+    "stud_matrix_columns": 16
+  },
+  "/examples/6474.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 1.5,
+    "brand": "duplo",
+    "type": "slope"
+  },
+  "/examples/6490.scad": {
+    "width": 8,
+    "length": 16,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/6636.scad": {
+    "width": 1,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/10202.scad": {
+    "width": 6,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/11169.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 1.5,
+    "brand": "duplo",
+    "type": "curve",
+    "stud_type": "hollow",
+    "curve_stud_rows": 2,
+    "curve_type": "concave"
+  },
+  "/examples/11170.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 1.5,
+    "brand": "duplo",
+    "type": "curve",
+    "curve_type": "convex",
+    "stud_type": "hollow"
+  },
+  "/examples/11212.scad": {
+    "width": 3,
+    "length": 3,
+    "height": 0.3333333333333333
+  },
+  "/examples/11344.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 2,
+    "brand": "duplo",
+    "type": "curve",
+    "curve_type": "convex",
+    "stud_type": "hollow",
+    "curve_stud_rows": 2
+  },
+  "/examples/14181.scad": {
+    "width": 4,
+    "length": 9,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "full",
+    "wing_base_length": 4,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/14716.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 3
+  },
+  "/examples/14721.scad": {
+    "width": 4,
+    "length": 4,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/14769.scad": {
+    "width": 2,
+    "length": 2,
+    "type": "round-tile",
+    "height": 0.3333333333333333,
+    "stud_notches": true
+  },
+  "/examples/22886.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 3
+  },
+  "/examples/23949.scad": {
+    "width": 6,
+    "length": 2,
+    "type": "slope"
+  },
+  "/examples/24299.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "stud_notches": true
+  },
+  "/examples/24307.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "stud_notches": true
+  },
+  "/examples/25549.scad": {
+    "width": 4,
+    "length": 6,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/26603.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/30145.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 3
+  },
+  "/examples/30249.scad": {
+    "width": 1,
+    "length": 6,
+    "height": 5,
+    "type": "slope",
+    "slope_stud_rows": 2,
+    "stud_type": "hollow"
+  },
+  "/examples/30355.scad": {
+    "width": 6,
+    "length": 12,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 4,
+    "wing_end_width": 3,
+    "stud_notches": true
+  },
+  "/examples/30356.scad": {
+    "width": 6,
+    "length": 12,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 4,
+    "wing_end_width": 3,
+    "stud_notches": true
+  },
+  "/examples/30363.scad": {
+    "width": 2,
+    "length": 4,
+    "type": "slope"
+  },
+  "/examples/30503.scad": {
+    "width": 4,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/30504.scad": {
+    "width": 8,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/31110.scad": {
+    "width": 2,
+    "length": 2,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 2
+  },
+  "/examples/32064.scad": {
+    "width": 1,
+    "length": 2,
+    "horizontal_axle_holes": true,
+    "horizontal_axle_hole_shape": "cross"
+  },
+  "/examples/33243.scad": {
+    "width": 1,
+    "length": 3,
+    "type": "curve",
+    "curve_type": "concave",
+    "height": 2,
+    "stud_type": "hollow"
+  },
+  "/examples/33909.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "**",
+    "stud_matrix_columns": 2
+  },
+  "/examples/35114.scad": {
+    "width": 2,
+    "length": 3,
+    "brand": "duplo",
+    "type": "slope"
+  },
+  "/examples/35480.scad": {
+    "width": 1,
+    "length": 2,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "stud_type": "hollow"
+  },
+  "/examples/40666.scad": {
+    "width": 2,
+    "length": 4,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/41539.scad": {
+    "width": 8,
+    "length": 8,
+    "height": 0.3333333333333333
+  },
+  "/examples/41740.scad": {
+    "width": 1,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "*__*",
+    "stud_matrix_columns": 4
+  },
+  "/examples/41769.scad": {
+    "width": 2,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 1,
+    "wing_end_width": 2,
+    "stud_notches": true
+  },
+  "/examples/41770.scad": {
+    "width": 2,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 1,
+    "wing_end_width": 2,
+    "stud_notches": true
+  },
+  "/examples/42022.scad": {
+    "width": 1,
+    "length": 6,
+    "type": "curve",
+    "curve_type": "convex",
+    "height": 2,
+    "curve_stud_rows": 2
+  },
+  "/examples/43722.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/43723.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/44126.scad": {
+    "width": 2,
+    "length": 6,
+    "type": "curve",
+    "curve_type": "convex",
+    "height": 2,
+    "curve_stud_rows": 2
+  },
+  "/examples/44524.scad": {
+    "width": 2,
+    "length": 8,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/47397.scad": {
+    "width": 3,
+    "length": 12,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 1,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/47398.scad": {
+    "width": 3,
+    "length": 12,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 1,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/48205.scad": {
+    "width": 4,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/48208.scad": {
+    "width": 4,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/49311.scad": {
+    "width": 1,
+    "length": 4,
+    "height": 3
+  },
+  "/examples/49570.scad": {
+    "width": 2,
+    "length": 4,
+    "height": 3,
+    "brand": "duplo",
+    "type": "slope"
+  },
+  "/examples/49618.scad": {
+    "width": 1,
+    "length": 8,
+    "height": 3,
+    "type": "slope"
+  },
+  "/examples/50303.scad": {
+    "width": 6,
+    "length": 7,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "full",
+    "wing_base_length": 3,
+    "wing_end_width": 2,
+    "stud_notches": true
+  },
+  "/examples/50304.scad": {
+    "width": 3,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 3,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/50305.scad": {
+    "width": 3,
+    "length": 8,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 3,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/51262.scad": {
+    "width": 8,
+    "length": 8,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/51739.scad": {
+    "width": 4,
+    "length": 2,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "full",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/54200.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 0.6666666666666666,
+    "type": "slope"
+  },
+  "/examples/54383.scad": {
+    "width": 3,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/54384.scad": {
+    "width": 3,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 0,
+    "wing_end_width": 1,
+    "stud_notches": true
+  },
+  "/examples/60477.scad": {
+    "width": 1,
+    "length": 4,
+    "type": "slope"
+  },
+  "/examples/60479.scad": {
+    "width": 1,
+    "length": 12,
+    "height": 0.3333333333333333
+  },
+  "/examples/60481.scad": {
+    "width": 1,
+    "length": 2,
+    "height": 2,
+    "type": "slope"
+  },
+  "/examples/63864.scad": {
+    "width": 1,
+    "length": 3,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/63871.scad": {
+    "width": 2,
+    "length": 3,
+    "height": 2,
+    "brand": "duplo",
+    "type": "slope"
+  },
+  "/examples/65140.scad": {
+    "width": 8,
+    "length": 8,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "stud_notches": true,
+    "round_radius": 2
+  },
+  "/examples/65474.scad": {
+    "width": 6,
+    "length": 8,
+    "type": "round-tile",
+    "height": 0.3333333333333333,
+    "stud_notches": true
+  },
+  "/examples/65734.scad": {
+    "width": 1,
+    "length": 4,
+    "type": "curve",
+    "curve_type": "convex",
+    "height": 2.6666666666666665
+  },
+  "/examples/66857.scad": {
+    "width": 2,
+    "length": 4,
+    "type": "round-tile",
+    "height": 0.3333333333333333,
+    "stud_notches": true
+  },
+  "/examples/67095.scad": {
+    "width": 3,
+    "length": 3,
+    "type": "round-tile",
+    "height": 0.3333333333333333,
+    "stud_notches": true
+  },
+  "/examples/68869.scad": {
+    "width": 4,
+    "length": 4,
+    "type": "round-tile",
+    "height": 0.6666666666666666,
+    "stud_notches": true,
+    "round_radius": 1
+  },
+  "/examples/69729.scad": {
+    "width": 2,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/70676.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 2,
+    "brand": "duplo",
+    "type": "slope"
+  },
+  "/examples/76371.scad": {
+    "width": 2,
+    "length": 1,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 2
+  },
+  "/examples/77850.scad": {
+    "width": 1,
+    "length": 3,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "stud_type": "hollow"
+  },
+  "/examples/78329.scad": {
+    "width": 1,
+    "length": 5,
+    "height": 0.3333333333333333
+  },
+  "/examples/78443.scad": {
+    "width": 2,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "left",
+    "wing_base_length": 1,
+    "wing_end_width": 2,
+    "stud_notches": true
+  },
+  "/examples/78444.scad": {
+    "width": 2,
+    "length": 6,
+    "height": 0.3333333333333333,
+    "type": "wing",
+    "wing_type": "right",
+    "wing_base_length": 1,
+    "wing_end_width": 2,
+    "stud_notches": true
+  },
+  "/examples/85861.scad": {
+    "width": 1,
+    "length": 1,
+    "type": "round",
+    "height": 0.3333333333333333,
+    "stud_type": "hollow"
+  },
+  "/examples/85984.scad": {
+    "width": 2,
+    "length": 1,
+    "height": 0.6666666666666666,
+    "type": "slope"
+  },
+  "/examples/86996.scad": {
+    "width": 1,
+    "length": 1,
+    "height": 0.6666666666666666,
+    "stud_type": "hollow"
+  },
+  "/examples/87074.scad": {
+    "width": 2,
+    "length": 3,
+    "brand": "duplo",
+    "stud_type": "hollow"
+  },
+  "/examples/87079.scad": {
+    "width": 2,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/88646.scad": {
+    "width": 3,
+    "length": 4,
+    "height": 0.3333333333333333,
+    "stud_matrix_string": "____****____",
+    "stud_matrix_columns": 4
+  },
+  "/examples/90498.scad": {
+    "width": 8,
+    "length": 16,
+    "height": 0.3333333333333333,
+    "type": "tile"
+  },
+  "/examples/91405.scad": {
+    "width": 16,
+    "length": 16,
+    "height": 0.3333333333333333
+  },
+  "/examples/91988.scad": {
+    "width": 2,
+    "length": 14,
+    "height": 0.3333333333333333
+  },
+  "/examples/92438.scad": {
+    "width": 8,
+    "length": 16,
+    "height": 0.3333333333333333
+  },
+  "/examples/98138.scad": {
+    "width": 1,
+    "length": 1,
+    "type": "round-tile",
+    "height": 0.3333333333333333
+  },
+  "/examples/98222.scad": {
+    "width": 4,
+    "length": 4,
+    "brand": "duplo",
+    "type": "round",
+    "height": 0.5,
+    "stud_notches": true,
+    "stud_type": "hollow"
+  },
+  "/examples/98225.scad": {
+    "width": 2,
+    "length": 2,
+    "brand": "duplo",
+    "type": "round",
+    "height": 2,
+    "stud_notches": true,
+    "stud_type": "hollow"
+  },
+  "/examples/98233.scad": {
+    "width": 2,
+    "length": 6,
+    "brand": "duplo",
+    "stud_type": "hollow",
+    "height": 0.5
+  },
+  "/examples/98560.scad": {
+    "width": 2,
+    "length": 2,
+    "height": 3,
+    "type": "slope"
+  }
+}
