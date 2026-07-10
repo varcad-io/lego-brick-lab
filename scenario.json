@@ -1,9 +1,10 @@
 {
   "title": "LEGO.scad Brick Lab",
-  "entryPath": "/index.scad",
-  "linkedLibraries": ["lego-scad"],
+  "entryPath": "/index.js",
+  "linkedLibraries": ["jscad", "lego-scad"],
   "features": [
-    "openscad",
+    "jscad",
+    "scad-library-interop",
     "lego-scad",
     "parametric",
     "widgets",

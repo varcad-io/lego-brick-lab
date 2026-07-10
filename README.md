@@ -6,7 +6,7 @@ An interactive VarCAD demonstration of the LEGO.scad parametric brick generator.
 
 Open `Widgets` to switch between a configurable part and a compact sampler. The controls cover brick dimensions, plates and tiles, slopes, curves, wings, round parts, Technic axle holes, LEGO/DUPLO dimensions, color, underside inspection, and render quality.
 
-The project imports `@lego-scad/LEGO.scad`; upstream library source is not vendored into this repository.
+The project imports `@lego-scad/LEGO.scad?use` from JavaScript; upstream library source is not vendored into this repository.
 
 ## Notes
 
