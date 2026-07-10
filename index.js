@@ -78,8 +78,27 @@ const createBlock = ({
   quality === "print" ? 2 : 8,
 );
 
-const colorBlock = (hex, geometry) =>
-  modeling.colors.colorize(modeling.colors.hexToRgb(hex), geometry);
+const flattenGeometry = (value) => {
+  const geometries = [];
+  const visit = (entry) => {
+    if (Array.isArray(entry)) {
+      entry.forEach(visit);
+    } else if (entry && typeof entry === "object") {
+      geometries.push(entry);
+    }
+  };
+  visit(value);
+  return geometries;
+};
+
+const colorBlock = (hex, geometry) => {
+  const geometries = flattenGeometry(geometry);
+  if (geometries.length === 0) {
+    throw new Error("LEGO.scad did not return renderable geometry");
+  }
+  const colored = modeling.colors.colorize(modeling.colors.hexToRgb(hex), ...geometries);
+  return colored.length === 1 ? colored[0] : colored;
+};
 
 const placeBlock = (offset, hex, options) =>
   modeling.transforms.translate(offset, colorBlock(hex, createBlock(options)));
