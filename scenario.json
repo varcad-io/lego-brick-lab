@@ -1,0 +1,13 @@
+{
+  "title": "LEGO.scad Brick Lab",
+  "entryPath": "/index.scad",
+  "linkedLibraries": ["lego-scad"],
+  "features": [
+    "openscad",
+    "lego-scad",
+    "parametric",
+    "widgets",
+    "technic",
+    "duplo"
+  ]
+}
