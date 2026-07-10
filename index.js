@@ -140,9 +140,9 @@ export function main({ variables = {} } = {}) {
     );
   }
 
-  if (!toBoolean(variables.show_underside)) return geometry;
   const rotation = Math.PI;
-  return Array.isArray(geometry)
-    ? geometry.map((part) => modeling.transforms.rotateX(rotation, part))
-    : modeling.transforms.rotateX(rotation, geometry);
+  const orientGeometry = (value) => Array.isArray(value)
+    ? value.map((part) => modeling.transforms.rotateX(rotation, part))
+    : modeling.transforms.rotateX(rotation, value);
+  return toBoolean(variables.show_underside) ? geometry : orientGeometry(geometry);
 }
