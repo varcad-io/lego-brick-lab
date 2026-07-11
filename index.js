@@ -117,14 +117,14 @@ const placeBlock = (offset, hex, options) =>
   modeling.transforms.translate(offset, colorBlock(hex, createBlock(options)));
 
 const createShowcase = (common) => [
-  placeBlock([-60, 35, 0], "#f5cd2f", { ...common, width: 1, length: 8, height: 1 / 3, type: "brick" }),
-  placeBlock([-5, 35, 0], "#237841", { ...common, width: 4, length: 4, height: 1, type: "brick", studType: "hollow" }),
-  placeBlock([45, 35, 0], "#9ba19d", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
-  placeBlock([100, 35, 0], "#008f8c", { ...common, width: 6, length: 8, height: 1 / 3, type: "baseplate" }),
-  placeBlock([-60, -25, 0], "#d71920", { ...common, width: 2, length: 8, height: 1, type: "brick" }),
-  placeBlock([-5, -25, 0], "#f4f4f4", { ...common, width: 4, length: 6, height: 1 / 3, type: "brick" }),
-  placeBlock([45, -25, 0], "#0055bf", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
-  placeBlock([90, -25, 0], "#81007b", { ...common, width: 2, length: 4, height: 1, type: "brick", studType: "open" }),
+  placeBlock([-80, 25, 0], "#f5cd2f", { ...common, width: 1, length: 8, height: 1 / 3, type: "brick" }),
+  placeBlock([-25, 25, 0], "#237841", { ...common, width: 4, length: 4, height: 1, type: "brick", studType: "hollow" }),
+  placeBlock([25, 25, 0], "#9ba19d", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
+  placeBlock([80, 25, 0], "#008f8c", { ...common, width: 6, length: 8, height: 1 / 3, type: "baseplate" }),
+  placeBlock([-80, -20, 0], "#d71920", { ...common, width: 2, length: 8, height: 1, type: "brick" }),
+  placeBlock([-25, -20, 0], "#f4f4f4", { ...common, width: 4, length: 6, height: 1 / 3, type: "brick" }),
+  placeBlock([25, -20, 0], "#0055bf", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
+  placeBlock([70, -20, 0], "#81007b", { ...common, width: 2, length: 4, height: 1, type: "brick", studType: "open" }),
 ];
 
 const createExample = (path, quality) => {
