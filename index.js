@@ -120,7 +120,7 @@ const createShowcase = (common) => [
   placeBlock([-80, 25, 0], "#f5cd2f", { ...common, width: 1, length: 8, height: 1 / 3, type: "brick" }),
   placeBlock([-25, 25, 0], "#237841", { ...common, width: 4, length: 4, height: 1, type: "brick", studType: "hollow" }),
   placeBlock([25, 25, 0], "#9ba19d", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
-  placeBlock([80, 25, 0], "#008f8c", { ...common, width: 6, length: 8, height: 1 / 3, type: "baseplate" }),
+  placeBlock([75, 25, 0], "#008f8c", { ...common, width: 4, length: 6, height: 1 / 3, type: "baseplate" }),
   placeBlock([-80, -20, 0], "#d71920", { ...common, width: 2, length: 8, height: 1, type: "brick" }),
   placeBlock([-25, -20, 0], "#f4f4f4", { ...common, width: 4, length: 6, height: 1 / 3, type: "brick" }),
   placeBlock([25, -20, 0], "#0055bf", { ...common, width: 4, length: 6, height: 1, type: "slope", slopeStuds: true }),
@@ -185,5 +185,5 @@ export function main({ variables = {} } = {}) {
   const orientGeometry = (value) => Array.isArray(value)
     ? value.map((part) => modeling.transforms.rotateX(rotation, part))
     : modeling.transforms.rotateX(rotation, value);
-  return toBoolean(variables.show_underside) ? geometry : orientGeometry(geometry);
+  return toBoolean(variables.show_underside) ? orientGeometry(geometry) : geometry;
 }
