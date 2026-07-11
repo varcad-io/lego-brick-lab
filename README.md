@@ -1,3 +1,5 @@
+[![LEGO.scad Brick Lab geometry preview](https://s3.us-east-1.amazonaws.com/varcad.io/repository-previews/22/81/preview-v8/orbit.webp)](https://varcad.io/varcad-io/lego-brick-lab)
+
 [gallery:Default]
 
 # LEGO.scad Brick Lab
