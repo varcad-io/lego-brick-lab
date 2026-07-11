@@ -1,5 +1,5 @@
 import * as modeling from "@jscad/modeling";
-import * as legoScad from "/Libraries/LEGO.scad/LEGO.scad?use";
+import * as legoScad from "./vendor/LEGO.scad?use";
 import exampleCatalog from "./examples/catalog.json";
 
 const toNumber = (value, fallback) => {

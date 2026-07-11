@@ -14,7 +14,7 @@ The `examples/` directory mirrors all 179 SCAD examples from the upstream LEGO.s
 node scripts/generate-example-catalog.mjs
 ```
 
-The project imports `/Libraries/LEGO.scad/LEGO.scad?use` from JavaScript; upstream library source is not vendored into this repository.
+The interactive entry point imports the pinned `vendor/LEGO.scad` copy so a clean client can render without first hydrating an external library bundle. The linked LEGO.scad library remains available for browsing and OpenSCAD parity checks.
 
 ## Notes
 
